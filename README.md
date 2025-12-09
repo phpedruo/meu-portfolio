@@ -72,6 +72,8 @@ O formulário de contato envia mensagens formatadas diretamente para WhatsApp co
 3. Clique em "Enviar WhatsApp"
 4. A mensagem será aberta no WhatsApp automaticamente
 
+**OBS: O número de WhatsApp é um aleatório, por segurança, por enquanto**
+
 ## 📚 Disciplina
 
 **Introdução à Computação** - CESAR School
