@@ -79,6 +79,7 @@ body {
     display: block;
     margin: 0 auto;
     object-fit: cover;
+    animation: flutuar 5s ease-in-out infinite;
 }
 
 h1 {
@@ -86,11 +87,13 @@ h1 {
     color: var(--primaria);
     font-weight: bold;
     margin: 20px;
+    text-align: center;
 }
 
 .cabecalho-subtitulo {
     font-size: 1.5rem;
     color: var(--claro);
+    text-align: center;
 }
 
 .sobre {
@@ -101,12 +104,12 @@ h1 {
 .sobre-titulo {
     font-size: 3rem;
     color: var(--claro);
-        lign: center;
+    text-align: center;
 }
 
 .sobre-box {
     padding: 2rem;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     border-radius: 16px;
     border: 1px solid var(--vidro);
@@ -174,7 +177,7 @@ h1 {
 }
 
 .contato {
-    padding: 6rem 2rem;
+    padding: 6rem 2rem; 
 }
 
 .contato-titulo {
@@ -206,14 +209,10 @@ h1 {
 
 .campo-form:focus {
     outline: none;
-    border-color: var(--secundaria);
-    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
 }
 
 .grupo-form {
     margin-bottom: 1.5rem;
-    border-color: var(--secundaria);
-    box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);
 }
 
 .text-form {
@@ -247,4 +246,26 @@ h1 {
 .botao-form:hover {
     transform: translateY(-4px);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
+
+.particulas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background:
+    radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%);
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }

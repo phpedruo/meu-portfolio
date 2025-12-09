@@ -7,29 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <div class="particulas"></div>
     <nav class="navegacao">
         <ul class="menu">
-            <li><a href="/index.html" class="menu-link">Início</a></li>
+            <li><a href="index.html" class="menu-link">Início</a></li>
             <li><a href="#sobre" class="menu-link">Sobre</a></li>
-            <li><a href="/projetos.html" class="menu-link">Projetos</a></li>
-            <li><a href="#contato" class="menu-link">Contato</a></li> 
+            <li><a href="projetos.html" class="menu-link">Projetos</a></li>
+            <li><a href="contato.html" class="menu-link">Contato</a></li> 
         </ul>
     </nav>
 
     <main id="contato" class="contato">
         <div>
             <h1 class="contato-titulo">Entre em contato comigo!</h1>
-            <form id="formulario" class="contato-form">
+            <form id="formulario" class="contato-form" onsubmit="enviarWhats(event)">
                 <div class="grupo-form">
-                    <input placeholder="Nome" class="campo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome">
                 </div>
                 <div class="grupo-form">
-                    <textarea placeholder="Digite sua Mensagem" class="text-form"></textarea> 
+                    <textarea placeholder="Digite sua Mensagem" class="text-form" id="mensagem"></textarea> 
                 </div>
                 <button type="submit" class="botao-form">Enviar WhatsApp</button>
             </form>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
