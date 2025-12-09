@@ -1,20 +1,6 @@
-# Portfolio Pedro Ramos
+# Portfolio
 
 Um portfolio pessoal desenvolvido com HTML, CSS e JavaScript, apresentando projetos, experiências e informações de contato.
-
-## 📋 Descrição do Projeto
-
-**Portfolio Pedro Ramos** é um website para exibição de projetos, habilidades e informações profissionais.
-
-Este projeto foi desenvolvido como **parte da entrega da avaliação da disciplina de Introdução à Computação**.
-
-## ✨ Funcionalidades
-
-- **Navegação Fixa**: Menu de navegação fixo no topo para acesso rápido às seções
-- **Seção Home**: Apresentação com foto de perfil e subtítulo profissional
-- **Seção Sobre**: Biografia detalhada com efeito de vidro (glassmorphism)
-- **Seção Projetos**: Grid responsivo com cards dos projetos desenvolvidos
-- **Seção Contato**: Formulário para contato direto via WhatsApp
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -53,6 +39,7 @@ portfolio/
 
 ## 🚀 Como Usar
 
+Entre no link: [phpedruo-portfolio.vercel.app](https://phpedruo-portfolio.vercel.app/)
 ### Abrir o Projeto
 
 1. Clone ou baixe o repositório
@@ -96,6 +83,6 @@ Este projeto foi desenvolvido como avaliação prática da disciplina, aplicando
 
 ## 👨‍💻 Autor
 
-**Pedro Ramos** - Desenvolvedor Front-end em formação
+**Pedro Ramos** - Desenvolvedor Front-end
 
 ---
